@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="KfHw=pJwgWG@r$R2B/5;" x="167" y="-119"><statement name="HANDLER"><block type="controls_if" id="=:F7S8R![1}/3ai.iucJ"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="!05OwT%AgL0th[(MQG8@"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="jacdac_reflectedlight_brightness___get" id="Ec=#2Y5nq?I;VjfjnqU+"><field name="reflectedlight">modules.reflectedLight1</field></block></value><value name="B"><shadow type="math_number" id=".l!HvLt1vxqS-C(s4|c}"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="WUOpi^hsU86:#An7H={T"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="P*yOjP~eL:}i$I]4sdrM"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="[n6w0IB:|gs^ZnmY[U00"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="jacdac_reflectedlight_brightness___get" id="Ba*Hhi[!?y!Ey8j-sis@"><field name="reflectedlight">myModules.iR2</field></block></value><value name="B"><shadow type="math_number" id="o=J~GAEdUWa)Haa`UmU0"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="[$TLOJ~1jl)=wwIbX*Vh"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . # . . . 
+        . # # # .
+        `</field></block></statement><next><block type="controls_if" id="Fe+qf0j/pe-(ii?p+7}M"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="o~bTP`AO0ln`A8SIwn)h"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="jacdac_reflectedlight_brightness___get" id="[-u@Gt`1IR-)0H^K|x{v"><field name="reflectedlight">myModules.iR3</field></block></value><value name="B"><shadow type="math_number" id="yIO~C}x1s1N_5HbZ9;R;"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="jlqsH).ENh4{~.gPA~0W"><field name="LEDS">`
+        . # # # . 
+        . . . # . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field></block></statement></block></next></block></next></block></statement></block><block type="pxt-on-start" id="x-i=Nf*_I?;PpPTR_!qA" x="-149" y="6"><statement name="HANDLER"><block type="basic_show_icon" id="oRuyc?-/RR3:);oSyFto"><field name="i">IconNames.Heart</field></block></statement></block></xml>
